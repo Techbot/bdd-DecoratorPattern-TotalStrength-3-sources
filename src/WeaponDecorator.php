@@ -9,7 +9,6 @@
 namespace Game;
 
 class WeaponDecorator extends GameDecorator {
-    
    
     function getStrength() {
         return $this->game->getStrength() + 4;

@@ -8,7 +8,6 @@
 
 namespace Game;
 
-
 abstract class GameDecorator extends Game
 {
     protected $game;
@@ -17,5 +16,4 @@ abstract class GameDecorator extends Game
     {
         $this->game = $game;
     }
-
 }
