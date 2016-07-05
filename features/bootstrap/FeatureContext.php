@@ -9,7 +9,6 @@ use PHPUnit_Framework_Assert as Assert;
 
 use Game\Player;
 use Game\WeaponDecorator;
-use Game\GameDecorator;
 use Game\FactionDecorator;
 /**
  * Defines application features from the specific context.
